@@ -46,3 +46,12 @@ htmlcov/
 *.log
 .env
 .env.*
+
+node_modules/
+.env
+.venv/
+__pycache__/
+.claude/
+.specify/
+history/
+tmpclaude-*
