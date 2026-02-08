@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(if:*)",
+      "Bash(then ls -1 specs)",
+      "Bash(else echo \"No specs directory\")",
+      "Bash(fi)"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+[project]
+name = "todoapp"
+version = "0.1.0"
+description = "In-Memory Console-Based Todo Application"
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+todoapp = "main:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+]
